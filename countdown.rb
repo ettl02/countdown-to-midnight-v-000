@@ -3,8 +3,10 @@
 def countdown (x)
 x = 10
 counter -= 1
+loop do
   puts "#{x} SECONDS!"
 until x == 0
+  break
 end
 end
 
