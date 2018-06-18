@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown (x)
-x = 10
+x = 12
 counter -= 1
 loop do
   puts "#{x} SECONDS!"
