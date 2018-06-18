@@ -1,19 +1,20 @@
 #write your code here
 
 def countdown (x)
-x = 12
-counter -= 1
-loop do
+  x = 12
+  counter -= 1
+  loop do
+    puts "#{x} SECONDS!"
+    until x == 0
+  end
+  puts "HAPPY NEW YEAR!"
+end
+
+
+def countdown_with_sleep (countdown)
+while x > 0
   puts "#{x} SECONDS!"
-until x == 0
-  break
+  sleep 1
 end
+"HAPPY NEW YEAR!"
 end
-
-
-def countdown_with_sleep (sleep)
-sleep 1
-end
-end
-
-puts "HAPPY NEW YEAR!"
