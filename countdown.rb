@@ -1,11 +1,9 @@
 #write your code here
 
 def countdown (x)
-  x = 12
-  x -= 1
-  loop do
+  while x > 0
     puts "#{x} SECONDS!"
-    until x == 0
+    x -= 1
   end
   puts "HAPPY NEW YEAR!"
 end
@@ -19,4 +17,4 @@ def countdown_with_sleep (countdown)
   end
   "HAPPY NEW YEAR!"
 end
-end 
+end
