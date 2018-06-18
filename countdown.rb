@@ -3,8 +3,8 @@
 def countdown (x)
 x = 10
 counter -= 1
-until x == 0
   puts "#{x} SECONDS!"
+until x == 0
 end
 end
 
